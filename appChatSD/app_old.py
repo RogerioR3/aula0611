@@ -6,7 +6,7 @@ from flask_cors import CORS  # Importa o CORS
 app = Flask(__name__)
 
 # Habilita CORS (Cross-Origin Resource Sharing) no Flask, permitindo que o backend seja acessado por diferentes origens
-CORS(app, )
+CORS(app)
 
 # Configura uma chave secreta para o Flask, usada internamente para segurança (como em sessões)
 app.config['SECRET_KEY'] = 'mysecret'
