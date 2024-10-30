@@ -16,6 +16,8 @@ socket.on('message', function(msg) {
 document.getElementById('send-btn').onclick = function() {
     var input = document.getElementById('message-input');
     var message = input.value;
-    socket.send(message);  // Enviar a mensagem para o servidor
-    input.value = '';  // Limpar o campo de entrada
+    for(i = 0; i < 20; i ++){
+        socket.send(message);  // Enviar a mensagem para o servidor
+        input.value = '';  // Limpar o campo de entrada
+    }
 };
