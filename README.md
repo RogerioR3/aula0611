@@ -24,17 +24,6 @@ A pasta `ExemploSocket` contém exemplos de comunicação síncrona e assíncron
 - **Comunicação Síncrona**: Exemplo de como enviar e receber mensagens de forma bloqueante, onde a execução aguarda uma resposta para continuar.
 - **Comunicação Assíncrona**: Exemplo de como enviar e receber mensagens sem bloqueio, permitindo que o sistema processe outras tarefas enquanto aguarda uma resposta.
 
-## Como Executar
-
-### Pré-requisitos
-
-- **Python 3.x**
-- **Docker** (opcional, para executar o RabbitMQ com facilidade)
-- **Bibliotecas Python**: Instale as dependências com o comando abaixo
-  ```bash
-  pip install -r requirements.txt 
-  ```
-
 ### Contribuições
 
 - Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para sugerir melhorias ou corrigir problemas.
